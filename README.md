@@ -26,10 +26,10 @@ To train a CNN model that can classify leaf images into their corresponding dise
 ## 🧪 Model Overview
 
 - **Model Type:** Sequential CNN  
-- **Input Shape:** Resized images  
+- **Input Shape:** Resized images (256x256)
 - **Layers:** Conv2D, MaxPooling2D, Dropout, Dense  
 - **Activation:** ReLU, Softmax  
-- **Loss Function:** Categorical Crossentropy  
+- **Loss Function:** Binary Crossentropy  
 - **Optimizer:** Adam
 
 ## 📊 Results
